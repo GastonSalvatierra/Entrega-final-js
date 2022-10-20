@@ -1,0 +1,81 @@
+/*** navegacion ***/
+div.menu-nav{
+    background: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    top: 0px;
+    position:sticky;
+    display: flex;
+    z-index: 1;
+}
+ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    overflow: hidden; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+ul li a {
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul li a:hover {
+    color:rgb(225, 255, 0);
+}
+.icons{
+  position: absolute;
+  margin-top: 1.5rem;
+  left: 90%;
+}
+.icons img{
+  height: 27px ;
+  margin: 10px;
+  color: black;
+}
+.icono-2{
+    margin-left: 70px;
+}
+span{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  list-style: none;
+  color: white;
+  filter: invert(90%);
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(208, 255, 0);
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+#carrito-btn{
+ cursor: pointer;
+}
+div.container{
+    z-index: 2;
+}
+div#carouselExampleIndicators{
+    display: flex;
+    height: 40rem;
+    z-index: 0;
+}
+div.carousel-inner{
+    height: 100%;
+}
